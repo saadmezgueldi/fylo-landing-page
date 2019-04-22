@@ -2,72 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Features
-  Team
-  Sign In
+<div class="main">  
 
-  All your files in one secure location, accessible anywhere.
+  <div class="top">
+    
+    <div class="icon">Fylo</div>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+    <ul class="menu">
+      <li>Features</li>
+      <li>Team</li>
+      <li>Sign In</li>
+    </ul>
+  </div>
 
-  Get Started
+  <div class="bodypage">
 
-  Stay productive, wherever you are
+      <div class="topbody">
+        <div class="texttopbody">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+          <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+          <input type="email" placeholder="Enter your email ...">
+          <input type="button" value="Get Started">
+        </div>
 
-  See how Fylo works
+        <div class="imgtopbody"></div>
+      </div>
+      
+      <div class="bottombody">
+        <div class="textbottombody">
+          <h1>Stay productive, wherever you are</h1>
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
+          <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p><br>
+          <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
 
-  Kyle Burton
-  Founder & CEO, Huddle
+          <a href="#">See how Fylo works</a>
+          
+          <div class="comnt">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
 
-  Get early access today
+            <div class="author">
+              <div class="name">Kyle Burton</div>
+              <div class="tag">Founder & CEO, Huddle</div>
+            </div>
 
-  It only takes a minute to sign up and our free starter tier is extremely generous. 
-  If you have any questions, our support team would be happy to help you.
+          </div>
+        </div>
+      
+        <div class="imgbottombody"></div>
+      </div>
+  </div>
 
-  Get Started For Free
+  <div class="join">
+    <h2>Get early access today</h2>
+    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+  
+    <input type="text" placeholder="email@example.com">
+    <input type="button" value="Get Started For Free">
+  </div>
 
-  Phone: +1-543-123-4567
-  example@fylo.com
+  <div class="Contact">
 
-  About Us
-  Jobs
-  Press
-  Blog
+    <div class="phone">
+      <div class="logo"></div>
+      <div class="num"><p>Phone: +1-543-123-4567</p></div>
+      <div class="email"><p>example@fylo.com</p></div>
+    </div>
 
-  Contact Us
-  Terms
-  Privacy
+    <div class="menucontact">
+      <ul class="left">
+        <li>About Us</li>
+        <li>Jobs</li>
+        <li>Press</li>
+        <li>Blog</li>
+      </ul>
 
+      <ul class="right">
+        <li>Contact Us</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
+    </div>
+
+    <div class="socialmedia"></div>
+  </div>
+   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+</div>
 </body>
 </html>
