@@ -147,9 +147,9 @@ a{
     background-size: cover;
     height: 49px;
     width: 166px;
-
 }
 .num p{
     margin-top: 0px;
 }
-.attribution a {display: inline; text-decoration: none}
+.attribution a {display: inline; text-decoration: none;}
+.attribution {margin: 0;text-align: center;font-weight: 700;}
