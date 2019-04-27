@@ -95,6 +95,7 @@ a{
     height: 180px;
     padding: 40px;
     margin: 40px 0;
+    margin-bottom: 34px;
     background-color: white;
     box-shadow: 0 0 20px #f5f4f9;
     border-radius: 10px;
@@ -114,7 +115,7 @@ a{
     position: relative;
 }
 .join {
-    height: 235px;
+    height: 212px;
     width: calc(100% - 80px);
     color: white;
     background-color: #575989;
@@ -139,17 +140,66 @@ a{
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 80px 80px 30px 80px;
+    padding: 40px 80px 30px 80px;
     justify-content: space-between
 }
 .logo{
     background-image: url(images/logowhite.png);
     background-size: cover;
     height: 49px;
-    width: 166px;
+    width: 147px;
+    margin-bottom: 25px;
 }
 .num p{
     margin-top: 0px;
+    width: 240px;
 }
 .attribution a {display: inline; text-decoration: none;}
 .attribution {margin: 0;text-align: center;font-weight: 700;}
+
+.imgphone {
+    background: url(images/icon-phone.svg) no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+.imgmail {
+    background: url(images/icon-email.svg) no-repeat;
+    width: 20px;
+    height: 16px;
+    margin-right: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.menucontact {
+    display: flex;
+    justify-content: space-between
+
+}
+.left li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.right li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 28px;
+    margin-right: 150px
+}
+.socialmedia i {
+    margin: 0 20px;
+    cursor: pointer;
+    color: white;
+}
